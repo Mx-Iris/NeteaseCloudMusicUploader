@@ -1,5 +1,3 @@
-#if canImport(AppKit) && !targetEnvironment(macCatalyst)
-
 import AppKit
 import Settings
 import SFSymbol
@@ -17,7 +15,7 @@ class GeneralSettingsViewController: XibViewController, SettingsPane {
     var toolbarItemIcon: NSImage = SFSymbol(systemName: .gearshape).nsImage
 
     var viewModel: GeneralSettingsViewModel?
-    
+
     @IBOutlet var baseURLTextField: NSTextField!
 
     override func viewDidLoad() {
@@ -34,9 +32,3 @@ class GeneralSettingsViewController: XibViewController, SettingsPane {
         output.baseURL.drive(baseURLTextField.rx.stringValue).disposed(by: rx.disposeBag)
     }
 }
-
-
-
-
-
-#endif

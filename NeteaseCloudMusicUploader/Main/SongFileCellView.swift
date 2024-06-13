@@ -109,13 +109,3 @@ class SongFileCellView: TableCellView {
         }
     }
 }
-
-// @available(macOS 14.0, *)
-// #Preview(traits: .fixedLayout(width: 500, height: 60)) {
-//    PreviewWrapperView {
-//        SongFileCellView().then {
-//            $0.configure(for: .testFailureSongFile)
-//        }
-//    }
-// }
-//

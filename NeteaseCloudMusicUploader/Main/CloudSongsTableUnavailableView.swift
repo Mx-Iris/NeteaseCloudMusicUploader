@@ -78,10 +78,3 @@ class CloudSongsTableUnavailableView: XiblessView {
         }
     }
 }
-
-// @available(macOS 14.0, *)
-// #Preview {
-//    CloudSongsTableUnavailableView().then {
-//        $0.type = .isEmpty
-//    }
-// }

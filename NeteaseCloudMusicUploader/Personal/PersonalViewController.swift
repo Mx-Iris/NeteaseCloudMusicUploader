@@ -50,10 +50,3 @@ class PersonalViewController: ViewController<PersonalViewModel> {
         
     }
 }
-
-// @available(macOS 14.0, *)
-// #Preview(traits: .fixedLayout(width: 600, height: 250)) {
-//    PreviewWrapperViewController {
-//        PersonalViewController.create(with: .testAppServices)
-//    }
-// }

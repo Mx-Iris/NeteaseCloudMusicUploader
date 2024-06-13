@@ -13,6 +13,7 @@ extension UTType {
     static let m4a = Self("com.apple.m4a-audio")!
     static let aac = Self("public.aac-audio")!
 }
+
 extension UTType {
     static let supportedTypes: [UTType] = [
         .mp3, .flac, .m4a, .aac,
